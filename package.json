@@ -1,0 +1,24 @@
+{
+  "name": "ts-minimal",
+  "version": "1.0.0",
+  "description": "Minimal typescript template for bug reproduction.",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmj2002/ts-minimal.git"
+  },
+  "author": "cmj2002",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmj2002/ts-minimal/issues"
+  },
+  "homepage": "https://github.com/cmj2002/ts-minimal#readme",
+  "dependencies": {
+    "typescript": "^5.5.3"
+  }
+}
