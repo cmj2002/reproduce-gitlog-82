@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Minimal typescript template for bug reproduction.",
   "main": "main.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/cmj2002/ts-minimal#readme",
   "dependencies": {
+    "gitlog": "^5.0.1",
     "typescript": "^5.5.3"
   }
 }
